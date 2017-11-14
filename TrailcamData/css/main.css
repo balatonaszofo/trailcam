@@ -1548,6 +1548,7 @@ hr {
 	padding-bottom: 60px;
 	text-align: center;
 	display: block;
+	background-size: cover;
 }
 
 #services h2 {
@@ -1912,4 +1913,21 @@ hr {
 }
 .more-projects .portfolio-wrapper {
 	text-align: left;
+}
+
+/* Center Images */
+
+.image-center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/* Border Images */
+.border-image {
+	border-style: solid;
+    border-width: 5px;
+	border-color: #39B54A;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 20px;
 }
